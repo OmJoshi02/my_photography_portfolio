@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { contactInfo } from '../assets/assets';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
+
 
 
 const contact = () => {
@@ -29,11 +30,15 @@ const contact = () => {
   setStatus(null);
 
   emailjs.send(
-    import.meta.env.VITE_EMAILJS_SERVICE_ID,
-    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-    formData,
-    import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-  )
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  {
+    name: formData.name,
+    email: formData.email,
+    message: formData.message,
+  },
+  import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+)
   .then(() => {
     setStatus('success');
     setFormData({ name: '', email: '', message: '' });
