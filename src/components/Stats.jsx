@@ -1,6 +1,6 @@
 import React from 'react'
 import { stats } from '../assets/assets'
-import Counter from './counter'
+import Counter from './Counter'
 
 const Stats = () => {
   return (
