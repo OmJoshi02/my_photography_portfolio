@@ -11,6 +11,8 @@ const contact = () => {
     message : ''
   })
 
+  const [loading, setLoading] = useState(false);
+
   const [status, setStatus] = useState(null); // 'success' | 'error'
 
   const handleChange = (e) => {
@@ -107,18 +109,21 @@ const contact = () => {
                     type='submit'
                     disabled={loading}
                     className='w-full bg-gradient-gold text-white py-4 rounded-full font-medium hover:shadow-xl transition duration-300 cursor-pointer'>
-                      {status === 'success' && (
-                        <p className="text-green-600 text-center mt-4">
-                          ✅ Message sent successfully!
-                        </p>
-                      )}
-
-                      {status === 'error' && (
-                        <p className="text-red-600 text-center mt-4">
-                          ❌ Failed to send message. Please try again.
-                        </p>
-                      )}
+                       {loading ? 'Sending...' : 'Send Message'}
                     </button>
+
+                    {/* STATUS MESSAGE */}
+                {status === 'success' && (
+                  <p className="text-green-600 text-center mt-4">
+                    ✅ Message sent successfully!
+                  </p>
+                )}
+
+                {status === 'error' && (
+                  <p className="text-red-600 text-center mt-4">
+                    ❌ Failed to send message. Please try again.
+                  </p>
+                )}
                 </form>
               </div>
 
