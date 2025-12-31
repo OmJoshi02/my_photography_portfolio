@@ -1,7 +1,7 @@
 # 📸 Pixel & Light – Photography Portfolio Website
 
-A modern and responsive photography portfolio website built using **React**, **Vite**, and **Tailwind CSS**.  
-This project focuses on clean UI, smooth user experience, and elegant presentation of photography work.
+A modern and responsive **Photography Portfolio Website** built using  
+**React, Vite, and Tailwind CSS** to showcase photography work with a clean and elegant UI.
 
 ---
 
@@ -10,37 +10,40 @@ This project focuses on clean UI, smooth user experience, and elegant presentati
 
 ---
 
-## 🛠 Tech Stack
-
-- React
-- Vite
-- Tailwind CSS
-- Vercel (Deployment)
+## 🛠️ Tech Stack
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🌐 Vercel (Deployment)
 
 ---
 
 ## ✨ Features
-
 - Fully responsive design
-- Clean and modern UI
-- Photography portfolio with category filters
-  - All Photos
-  - Sunset
-  - Nature
+- Photography portfolio with category filters  
+  - All Photos  
+  - Sunset  
+  - Nature  
   - Macro
-- Hero section with call-to-action
-- About section with personal introduction
-- Contact form layout
-- Smooth and professional layout
+- Elegant landing section with CTA
+- About section with personal branding
+- Contact form with clean UI
+- Modern and minimal design
 
 ---
 
-## 📂 Project Structure
+## 👀 Project Glimpse
 
-src/
-├── assets/
-├── components/
-├── pages/
-├── App.jsx
-├── main.jsx
-└── index.css
+### 🏠 Home Page
+![Home Page](screenshots/home.png)
+
+### 🖼️ Portfolio Section
+![Portfolio Page](screenshots/portfolio.png)
+
+### 👤 About Section
+![About Page](screenshots/about.png)
+
+### 📩 Contact Section
+![Contact Page](screenshots/contact.png)
+
+---
