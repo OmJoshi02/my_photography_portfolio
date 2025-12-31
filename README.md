@@ -47,5 +47,3 @@ A modern and responsive **Photography Portfolio Website** built using
 ![Contact Page](screenshots/contact.png)
 
 ---
-
-## 📂 Project Structure
