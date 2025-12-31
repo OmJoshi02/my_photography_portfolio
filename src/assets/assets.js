@@ -6,6 +6,9 @@ import portfolio3Img from '../assets/portfolio3.jpeg';
 import portfolio4Img from '../assets/portfolio4.jpeg';
 import portfolio5Img from '../assets/portfolio5.jpeg';
 import portfolio6Img from '../assets/portfolio6.jpeg';
+import portfolio7Img from '../assets/portfolio7.jpeg';
+import portfolio8Img from '../assets/portfolio8.jpeg';
+import portfolio9Img from '../assets/portfolio9.jpeg';
 import testimonial2 from '../assets/testimonial2.avif';
 import testimonial3 from '../assets/testimonial3.avif';
 
@@ -69,6 +72,24 @@ export const portfolioItems = [
   {
     id: 6,
     image: portfolio6Img,
+    category: "macro",
+    title: "Macro Photography"
+  },
+  {
+    id: 7,
+    image: portfolio7Img,
+    category: "nature",
+    title: "Macro Photography"
+  },
+  {
+    id: 8,
+    image: portfolio8Img,
+    category: "nature",
+    title: "Macro Photography"
+  },
+  {
+    id: 9,
+    image: portfolio9Img,
     category: "macro",
     title: "Macro Photography"
   }
