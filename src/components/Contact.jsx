@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 
 
 
-const contact = () => {
+const Contact = () => {
 
   const [formData, setFormData] = useState({
     name: '',
@@ -170,4 +170,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact
